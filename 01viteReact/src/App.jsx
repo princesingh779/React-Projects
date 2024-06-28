@@ -1,12 +1,12 @@
 import { useState } from 'react'
-
+import form from './components/form'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-   <h1>Chai aur react</h1>
+   <form/>
   )
 }
 
